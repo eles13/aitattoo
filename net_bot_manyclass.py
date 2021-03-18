@@ -81,7 +81,7 @@ os.makedirs(own_pics_path, exist_ok=True)
 os.makedirs(review_dir, exist_ok=True)
 
 logging.basicConfig(filename="botlog.log", level=logging.INFO, filemode='w')
-token = '1277130373:AAH7oKdzkHwopPmwVluIIVPFfU_rugTedRM'
+token = ''
 bot = TeleBot(token)
 
 device = torch.device("cpu")
